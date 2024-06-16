@@ -1,10 +1,10 @@
 ## Getting started
 
-First start local server with php ^8.2 for laravel 11, copy .env.example file from root directory, rename it to .env and configure db connection (for this small project recommended to use SQLite)
+First use <h4>composer install</h4> to download core Laravel modules. Copy .env.example file from root directory, rename it to .env and configure it (for this small project recommended to use SQLite). Then start local server with php ^8.2 for laravel 11.
 After this open terminal and run next commands to automatically seed some data in database:
-php artisan migrate
-php artisan db:seed
-php artisan storage:link
+<p>php artisan migrate</p>
+<p>php artisan db:seed</p>
+<p>php artisan storage:link</p>
 
 Now you are ready to use app.
 
